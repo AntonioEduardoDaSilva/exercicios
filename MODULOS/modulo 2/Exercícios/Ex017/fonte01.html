@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+
+            Medidas recomendadas pe W3C
+            em, px
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /* lighter, normal, bold e bolder*/
+            font-style: italic;
+            text-decoration: underline;
+        }
+        h1{
+            /*font-style: italic;
+            font-weight: bolder;
+             lighter, normal, bold e bolder
+            font-size: 3em;
+            font-family: 'Times New Roman', Times, serif;
+            */
+
+            /*shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            */
+
+            font: italic bolder 3em 'Times New Roman', Times, serif;
+            background-color: rgba(59, 101, 150, 0.507);
+            text-decoration: underline;
+        }
+        h2{
+            font: bold 2em 'Times New Roman', Times, serif;
+            background-color: rgba(59, 101, 150, 0.507);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod sequi, voluptatibus provident, odio assumenda a nam alias veritatis aut magni vero cum, incidunt nulla enim recusandae deserunt saepe animi maxime? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo tempore eaque, neque quis esse vitae quas non suscipit voluptatibus rem ipsa, ipsum cum aut repudiandae cupiditate perferendis harum? Iure, tenetur?
+    </p>
+    <h2>Subtitulodo exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt veritatis necessitatibus enim ex aspernatur accusantium reprehenderit vitae, voluptatibus placeat quas, tenetur voluptate est consectetur blanditiis molestias sunt sint quis? Culpa.</p>
+</body>
+</html>
